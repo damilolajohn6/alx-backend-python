@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-""" Annotate several variables """
-
+""" 4. Define variables
+"""
 
 a: int = 1
 pi: float = 3.14

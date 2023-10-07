@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-""" A script that performs basic math operation """
+""" 2. Basic annotations - floor
+"""
 
 
 def floor(n: float) -> int:
-        """ Returns the floor of a number """
-            return int(n // 1)
+    """ Returns floor of number
+    """
+    return int(n) if n >= 0 else int(n) - 1

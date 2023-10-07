@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-""" A script that concatenates strings """
+""" 1. Basic annotations - concat
+"""
 
 
 def concat(str1: str, str2: str) -> str:
-        """ Returns the concatematio of two strings """
-            return str1 + str2
+    """ Concats two strings together.
+    """
+    return str(str1) + str(str2)
