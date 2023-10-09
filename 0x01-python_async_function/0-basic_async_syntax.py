@@ -3,12 +3,16 @@
 
 import asyncio
 import random
-\
-async def wait_random(max_delay: int = 10) -> float:
-    """asyncronous program that return a float number
-        with a random wait delay
-    """
 
-    random_val = random.uniform(0, max_delay)
-    await asyncio.sleep(random_val)
-    return random_val
+
+async def wait_random(max_delay: int = 10) -> float:
+    """
+    Returns a random float between 0 and max_delay
+    Args:
+        max_delay: The maximum delay to return
+    Returns:
+        A random float between 0 and max_delay
+    """
+    rand = random.uniform(0, max_delay)
+    await asyncio.sleep(rand)
+    return rand
